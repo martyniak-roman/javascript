@@ -1,0 +1,1 @@
+const arr = [1,2,3,4,5, 'Alex', 'Roma', 'Serg','Sain', 'Anna', 'Build', 12, true,false, 15 ];
