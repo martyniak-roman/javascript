@@ -1,0 +1,46 @@
+#wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+}
+
+.course-item {
+    border: 2px solid black;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.course-title {
+    border: 1px solid #000;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.duration-container {
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+}
+
+.duration-item {
+    border: 1px solid #000;
+    padding: 10px;
+}
+
+.modules-block {
+    border: 1px solid #000;
+    padding: 10px;
+}
+
+ul {
+    margin: 0;
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 5px;
+}
