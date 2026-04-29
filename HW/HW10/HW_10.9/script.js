@@ -1,5 +1,5 @@
 let time = localStorage.getItem('time') || 0;
-let price = localStorage.getItem('price') || 100;
+let price = parseInt(localStorage.getItem('price')) || 100;
 let date = Date.now();
 
 if (date - time > 10000) {
