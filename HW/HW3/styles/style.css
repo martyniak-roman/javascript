@@ -1,6 +1,40 @@
 .users-box {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 24px;
-    padding: 24px
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.user-block {
+    background-color: #f4f4f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.user-block h2 {
+    margin-top: 0;
+    color: #333;
+    font-size: 1.5rem;
+}
+
+.user-block h3 {
+    color: #555;
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+}
+
+.address-block {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    border-left: 4px solid #007bff;
+}
+
+.address-block p {
+    margin: 5px 0;
+    color: #666;
 }

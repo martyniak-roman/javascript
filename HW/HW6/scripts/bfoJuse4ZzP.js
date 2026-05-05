@@ -1,12 +1,12 @@
 let str = 'Ревуть воли як ясла повні';
 
-const stringToarray = (str) => {
+const stringToArray = (str) => {
   if (str){
-    const split = str.split(' ')
-    return split
+    const result = str.split(' ')
+    return result
   }
   return ['']
 }
 
-console.log(stringToarray(str))
+console.log(stringToArray(str))
 
